@@ -1,0 +1,38 @@
+{
+  "name": "repo-compass",
+  "version": "1.0.1",
+  "description": "Static code intelligence for AI-assisted development. Generates a dense CODEBASE.ctx from your source files — no API calls, pure local compute.",
+  "type": "module",
+  "bin": {
+    "repo-compass": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "postinstall": "node scripts/postinstall.cjs"
+  },
+  "files": [
+    "dist",
+    "scripts",
+    ".claude"
+  ],
+  "keywords": [
+    "cli",
+    "documentation",
+    "open-source",
+    "developer-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.0",
+  "dependencies": {
+    "commander": "14.0.3",
+    "fast-glob": "3.3.3",
+    "typescript": "6.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "4.21.0"
+  }
+}
