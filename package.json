@@ -1,6 +1,6 @@
 {
   "name": "repo-compass",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Static code intelligence for AI-assisted development. Generates a dense CODEBASE.ctx from your source files — no API calls, pure local compute.",
   "type": "module",
   "bin": {
@@ -15,13 +15,18 @@
   "files": [
     "dist",
     "scripts",
-    ".claude"
+    ".claude",
+    "SKILL.md"
   ],
   "keywords": [
     "cli",
     "documentation",
     "open-source",
-    "developer-tools"
+    "developer-tools",
+    "claude",
+    "ai",
+    "codebase-context",
+    "claude-code"
   ],
   "repository": {
     "type": "git",
