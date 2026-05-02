@@ -23,7 +23,15 @@
     "open-source",
     "developer-tools"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pietrotommasini2022/repo-compass.git"
+  },
+  "homepage": "https://github.com/pietrotommasini2022/repo-compass#readme",
+  "bugs": {
+    "url": "https://github.com/pietrotommasini2022/repo-compass/issues"
+  },
+  "author": "Pietro Tommasini",
   "license": "MIT",
   "packageManager": "pnpm@10.33.0",
   "dependencies": {
